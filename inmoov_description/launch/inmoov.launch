@@ -1,6 +1,6 @@
 <launch>
 
-    <arg name="model" default="$(find robot-arm-control-ros)/urdf/inmoov.urdf"/>
+    <arg name="model" default="$(find inmoov_description)/urdf/inmoov.urdf"/>
     <arg name="gui" default="true" />
     <arg name="rvizconfig" default="$(find rviz)/urdf.rviz" />
 
